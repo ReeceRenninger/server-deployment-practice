@@ -8,9 +8,16 @@
     "test": "jest --verbose --coverage",
     "test-watch": "jest --watchAll --verbose --coverage"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReeceRenninger/server-deployment-practice.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReeceRenninger/server-deployment-practice/issues"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",

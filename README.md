@@ -9,8 +9,9 @@
 This is a very basic express server is used as a base for CI/CD deployment exercises
 
 ### Links and Resources
-- [GitHub Actions ci/cd](https://github.com/rkgallaway/server-deployment-practice-d51/actions)
-- [back-end dev server url](http://xyz.com) (when applicable)
+
+- [GitHub Actions ci/cd](https://github.com/ReeceRenninger/server-deployment-practice)
+- [back-end dev server url](https://example-server-dev-n25u.onrender.com) (when applicable)
 - [back-end prod server url](http://xyz.com) (when applicable)
 
 ### Collaborators
