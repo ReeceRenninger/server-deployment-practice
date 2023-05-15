@@ -28,6 +28,6 @@ app.use('*', (req, res, next) => {
   res.status(404).send('Not Found');
 });
 
-const start = app.listen(PORT, () => console.log('Can you see me on?' + PORT));
+const start = (port) = app.listen(port, () => console.log('Can you see me on?' + port));
 
-module.exports = start;
+module.exports = { start, app };
