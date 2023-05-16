@@ -12,7 +12,7 @@ This is a very basic express server is used as a base for CI/CD deployment exerc
 
 - [GitHub Actions ci/cd](https://github.com/ReeceRenninger/server-deployment-practice)
 - [back-end dev server url](https://example-server-dev-n25u.onrender.com) (when applicable)
-- [back-end prod server url](http://xyz.com) (when applicable)
+- [back-end prod server url](https://server-deployment-prod-ge0p.onrender.com) (when applicable)
 
 ### Collaborators
 
@@ -33,7 +33,10 @@ clone repo, 'npm i', then run 'nodemon' in the terminal
 
 #### Routes
 <!-- all routes should be documented -->
+- GET : `/` - proof of life endpoint
 - GET : `/success` - specific route to hit
+- GET : `/bad` - specific route to hit to signify if an error is encountered
+- USE : `*` - catch all for not found
 
 #### Tests
 
